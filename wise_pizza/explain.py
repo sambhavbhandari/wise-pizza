@@ -45,7 +45,7 @@ def explain_changes_in_average(
     @param total_name: Name of column that contains totals per segment
     @param size_name: Name of column containing segment sizes
     @param min_segments: Minimum number of segments to find
-    @param max_segments: Maximum number of segments to find, defaults to min_segments
+    @param max_segments: Maximum number of segments to find
     @param min_depth: Minimum number of dimension to constrain in segment definition
     @param max_depth: Maximum number of dimension to constrain in segment definition
     @param solver: "lasso" for most unusual, possibly overlapping segments;
@@ -144,7 +144,7 @@ def explain_changes_in_totals(
     @param total_name: Name of column that contains totals per segment
     @param size_name: Name of column containing segment sizes
     @param min_segments: Minimum number of segments to find
-    @param max_segments: Maximum number of segments to find, defaults to min_segments
+    @param max_segments: Maximum number of segments to find
     @param min_depth: Minimum number of dimension to constrain in segment definition
     @param max_depth: Maximum number of dimension to constrain in segment definition
     @param solver: "lasso" for most unusual, possibly overlapping segments;
@@ -291,7 +291,7 @@ def explain_levels(
     @param total_name: Name of column that contains totals per segment
     @param size_name: Name of column containing segment sizes
     @param min_segments: Minimum number of segments to find
-    @param max_segments: Maximum number of segments to find, defaults to min_segments
+    @param max_segments: Maximum number of segments to find
     @param min_depth: Minimum number of dimension to constrain in segment definition
     @param max_depth: Maximum number of dimension to constrain in segment definition
     @param solver: "lasso" for most unusual, possibly overlapping segments;
@@ -543,7 +543,7 @@ def _explain_timeseries(
     @param size_name: Name of column containing segment sizes
     @param time_name: Name of column containing the time dimension
     @param min_segments: Minimum number of segments to find
-    @param max_segments: Maximum number of segments to find, defaults to min_segments
+    @param max_segments: Maximum number of segments to find
     @param min_depth: Minimum number of dimension to constrain in segment definition
     @param max_depth: Maximum number of dimension to constrain in segment definition
     @param solver: If this equals to "lp" uses the LP solver, else uses the (recommended) Lasso solver

@@ -116,7 +116,7 @@ class SliceFinder:
         @param totals: Column with totals
         @param weights: Column with sizes
         @param min_segments: Minimum number of segments to find
-        @param max_segments: Maximum number of segments to find, defaults to min_segments
+        @param max_segments: Maximum number of segments to find
         @param min_depth: Minimum number of dimension to constrain in segment definition
         @param max_depth: Maximum number of dimensions to constrain in segment definition; also max depth pf tree in tree solver
         @param solver: Valid values are "lasso" (default), "tree" (for non-overlapping segments), "omp", or "lp"

@@ -138,7 +138,7 @@ def run_streamlit_app():
             key="min_segments",
         )
         max_segments = st.number_input(
-            "Max segments: Maximum number of segments to find, defaults to min_segments",
+            "Max segments: Maximum number of segments to find",
             min_value=1,
             max_value=200,
             value=20,
@@ -237,7 +237,7 @@ def run_streamlit_app():
             key="min_segments",
         )
         max_segments = st.number_input(
-            "Max segments: Maximum number of segments to find, defaults to min_segments",
+            "Max segments: Maximum number of segments to find",
             min_value=1,
             max_value=200,
             value=20,
